@@ -1,0 +1,95 @@
+body{
+	background-color: #fff;
+}
+
+.submit {
+	padding: 100px 180px 20px;
+}
+
+.submit .title{
+	width: 100%;
+	text-align: left;
+	font-size: 1.9em;
+	font-weight: 600;
+	padding: 0 0 10px;
+}
+
+.submit .subtitle{
+	text-align: left;
+	width: 100%;
+	color: #757575;
+	font-size: .8em;
+	padding: 0 0 10px;
+	line-height: 1.5;
+}
+
+form{
+	width: 100%;
+}
+
+form div{
+	width: 42%;
+}
+
+form label{
+	color: #747373;
+	font-weight: 600;
+	display: block;
+	padding: 30px 0 10px;
+	font-size: .9em;
+}
+
+form input{
+	color: #505050;
+	width: 90%;
+	padding: 10px 15px;
+	border: 1px solid #c0c0c0;
+	border-radius: 3px;
+}
+
+form .btn-big{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	margin: 10px 0;
+}
+
+form textarea{
+	width: 95%;
+	height: 245px;
+	resize:none;
+	padding: 10px;
+	border-radius: 3px;
+	font-family: Roboto, sans-serif;
+}
+
+#project-name{
+	width: 93%;
+}
+
+.submit .explain{
+	display: inline-block;
+	font-size: .8em;
+	padding: 10px 0;
+	line-height: 1.5;
+	padding-right: 80px;
+	color: #505050;
+}
+
+@media only screen and (max-width:850px){
+	.submit{
+		padding: 90px 20px 10px;
+	}
+	form div{
+		width: 95%;
+	}
+	form input{
+		width: 95%;
+	}
+	.submit-top{
+		display: none;
+	}
+	.submit-bottom{
+		display: inline-block;
+	}
+}

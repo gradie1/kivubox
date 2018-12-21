@@ -1,0 +1,90 @@
+header{
+	padding: 18px 0;
+}
+
+.menu{
+	width: 50%;
+}
+
+/*LOGIN*/
+.login{
+	height: 100vh;
+}
+
+.login .title{
+	color: #333;
+	font-size: 1.7em;
+	font-weight: 800;
+	padding: 20px 0;
+}
+
+form{
+	padding: 30px 80px 40px;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+form input{
+	width: 200px;
+	margin: 23px 0;
+	padding: 10px 15px;
+	border: 1px solid #c0c0c0;
+	border-radius: 3px;
+}
+
+form input[type="submit"]{
+	width: 232px;
+	color: #fff;
+	background-color: #2fd08d;
+}
+
+form input[type="email"]:focus,form input[type="password"]:focus{
+	outline: none;
+	border: 1px solid #2fd08d;
+}
+
+form input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: #26a671;
+}
+
+form a{
+	color: #505050;
+	padding: 10px 0;
+}
+
+form a:hover{
+	color: #2fd08d;
+}
+
+.login .message{
+	margin: 0 0 20px;
+}
+
+.login span{
+	display: inline-block;
+	padding: 15px 20px ;
+}
+
+.fail{
+	background-color: #ff4d4d;
+	color: #fff;
+}
+
+.pass{
+	background-color: #2fd08d;
+	color: #fff;
+}
+
+@media only screen and (max-width:850px){
+	form{
+		padding: 20px 40px 30px;
+	}
+	.login .message{
+	}
+}
+
+.err-log{
+	font-size: .8em;
+	color: #da4b4b;
+}

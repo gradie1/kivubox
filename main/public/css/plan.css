@@ -1,0 +1,114 @@
+body{
+	background-color: #fff;
+}
+
+.plans{
+	width: 100%;
+	padding: 100px 0px 0px;
+}
+
+.plans .title{
+	font-size: 1.8em;
+	font-weight: 600;
+	padding: 0 0 10px;
+}
+
+.plans .subtitle{
+	font-size: .9em;
+	font-style: italic;
+	color: #747373;
+}
+
+.plan-list{
+	width: 100%;
+	padding: 40px 0;
+}
+
+.plan{
+	text-align: center;
+	width: 25%;
+	min-width: 300px;
+	padding: 20px ;
+	margin-bottom: 20px;
+}
+
+.plan div{
+	padding: 8px 20px;
+}
+
+.plan .price{
+	text-align: left;
+	font-size: 3em;
+	font-weight: 600;
+	padding: 20px 0px;
+}
+
+.right-price{
+	font-size: 1em;
+	font-weight: 600;
+	padding: 8px 0;
+}
+
+.plan .name{
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.plan .subtitle{
+	font-size: .9em;
+	color: #747373;
+	padding-top: 0;
+	font-style: normal;
+}
+
+.feature{
+	padding: 5px 10px;
+	margin: 10px 0px;
+}
+
+.feature .name{
+	font-size: 1em;
+	font-weight: 400;
+	color: #111;
+}
+
+.feature .value{
+	font-size: .9em;
+	color: #747373;
+}
+
+.plan .btn-big{
+	width: 78%;
+	display: inline-block;
+	margin: 10px 0;
+	color: #fff;
+}
+
+.icon-check{
+	color: #2fd08a;
+}
+
+.icon-cancel{
+	color: #f98279;
+}
+
+.plan .middle{
+	color:#fff;
+}
+
+.middle div, .middle .name, .middle .value, .middle .icon-check, .middle .subtitle{
+	color: #fff;
+}
+
+.middle .btn-big{
+	color: #2fd08a;
+	background-color: #fff;
+}
+
+.btn-big:hover{
+	background-color: #26a671;
+}
+
+.middle .btn-big:hover{
+	background-color: #fff;
+}

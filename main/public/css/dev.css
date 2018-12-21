@@ -1,0 +1,58 @@
+#body{
+	height: 100vh;
+	background-color: #fff;
+}
+
+.developers{
+	width: 100%;
+	padding: 80px 0 20px;
+}
+
+.developers .title{
+	font-size: 1.7em;
+	font-weight: 600;
+	padding: 0 0 10px;
+}
+
+.developers .subtitle{
+	font-size: .9em;
+	color: #747373;
+	font-style: italic;
+}
+
+.dev-list{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.dev-list .developer{
+	width: 30%;
+}
+
+.dev-list .image{
+	width: 100%;
+	height: 280px;
+	background-color: #505050;
+}
+
+.dev-list .name{
+	padding: 10px 0px;
+	font-weight: 600;
+}
+
+.dev-list .fields{
+	font-size: .9em;
+	padding: 0px 0px 20px;
+	line-height: 1.5;
+}
+
+.dev-list .btn-small{
+	color: #fff;
+}
+
+@media only screen and (max-width:850px){
+	.dev-list .developer{
+		width: 90%;
+		margin-bottom: 30px;
+	}
+}
